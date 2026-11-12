@@ -1,8 +1,8 @@
 [dependencies]
-"php/php" = "=8.5.1"
+"php/php" = "=8.3.4"
 
 [fs]
-"/app/" = "Api"
+"/app/" = "."
 
 [[command]]
 name = "run"
