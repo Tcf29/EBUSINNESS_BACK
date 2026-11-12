@@ -1,12 +1,12 @@
 [dependencies]
-"php/php" = "=8.5.1"
+"shira/php" = "=8.5.10"
 
 [fs]
 "/app/" = "."
 
 [[command]]
 name = "run"
-module = "php/php:php"
+module = "shira/php:php"
 runner = "wasi"
 
 [command.annotations.wasi]
